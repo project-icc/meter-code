@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.index-bg {
+    background: linear-gradient(to right, #1a73e8, #4285f4);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.form-bg {
+    background: linear-gradient(to right, #1a73e8, #4285f4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container, .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.btn-primary {
+    background: #1a73e8;
+    color: white;
+}
+
+.btn-secondary {
+    background: #e0e0e0;
+    color: black;
+}
+
+.checkbox-group {
+    margin: 15px 0;
+    text-align: left;
+}
